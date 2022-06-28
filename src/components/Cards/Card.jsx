@@ -8,19 +8,26 @@ const Card = ({ name, img, options }) => {
   };
   return (
     <div className={classes["card"]} onClick={clickHandler}>
-      {info && (
+      {info ? (
         <div>
           <img src={img} alt={name} className={classes.image} />
           <h3>{name}</h3>
         </div>
-      )}
-      {!info && (
+      ) : (
         <ul>
           {options.map((element) => {
             return <li>{element}</li>;
           })}
         </ul>
       )}
+      {/* İkinci çözüm yolu.. */}
+      {/* {!info && (
+        <ul>
+          {options.map((element) => {
+            return <li>{element}</li>;
+          })}
+        </ul>
+      )} */}
     </div>
   );
 };
