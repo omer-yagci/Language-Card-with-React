@@ -9,42 +9,42 @@ import html from "../assets/html.png";
 
 export const languages = [
   {
-    name: "javascript",
+    name: "Javascript",
     img: javascript,
     options: ["Website Development", "1995", "Brendan Eich"],
   },
   {
-    name: "html",
+    name: "Html",
     img: html,
     options: ["Website Development", "1993", "Tim Berners-Lee"],
   },
   {
-    name: "css",
+    name: "Css",
     img: css,
     options: ["Website Design", "1994", "Håkon Wium Lie"],
   },
   {
-    name: "python",
+    name: "Python",
     img: python,
     options: ["AI", "1980", "Guido van Rossum"],
   },
   {
-    name: "java",
+    name: "Java",
     img: java,
     options: ["BackEnd", "1990s", "Sun Microsystems"],
   },
   {
-    name: "c++",
+    name: "C++",
     img: cpp,
     options: ["Game Dev.", "1980s", "Bjarne Stroustrup"],
   },
   {
-    name: "go",
+    name: "Go",
     img: go,
     options: ["Network", "2009", "Robert Griesemer"],
   },
   {
-    name: "php",
+    name: "Php",
     img: php,
     options: ["BackEnd", "1995", "	Rasmus Lerdorf"],
   },
