@@ -1,7 +1,15 @@
 @import "./variables";
 .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: $Spring3;
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  border-radius: 20px;
+  margin: auto;
+  flex-direction: row;
+}
+h1 {
+  color: white;
+  text-align: center;
+  margin: 0.5rem;
 }
